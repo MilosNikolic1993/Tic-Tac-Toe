@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:foreground="@drawable/finalboard"
+        android:foregroundGravity="fill">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/oneMach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foregroundGravity="center"
+                android:onClick="boardClickMachine" />
+
+            <ImageView
+                android:id="@+id/twoMach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foregroundGravity="center"
+                android:onClick="boardClickMachine" />
+
+            <ImageView
+                android:id="@+id/threeMach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foregroundGravity="center"
+                android:onClick="boardClickMachine" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:id="@+id/fourMach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foregroundGravity="center"
+                android:onClick="boardClickMachine" />
+
+            <ImageView
+                android:id="@+id/fiveMach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foregroundGravity="center"
+                android:onClick="boardClickMachine" />
+
+            <ImageView
+                android:id="@+id/sixMach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foregroundGravity="center"
+                android:onClick="boardClickMachine" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/sevenMach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foregroundGravity="center"
+                android:onClick="boardClickMachine" />
+
+            <ImageView
+                android:id="@+id/eightMach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foregroundGravity="center"
+                android:onClick="boardClickMachine" />
+
+            <ImageView
+                android:id="@+id/nineMach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foregroundGravity="center"
+                android:onClick="boardClickMachine" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

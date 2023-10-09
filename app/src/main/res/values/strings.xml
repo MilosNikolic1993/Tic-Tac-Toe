@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+    <!--Home Screen Strings -->
+    <string name="welcomeMSG">X  Welcome to game  O</string>
+    <string name="play">Start Game</string>
+    <string name="about">About Game</string>
+    <!-- gameModePicker Strings -->
+    <string name="vsMachine">TicTacToe \n Bot</string>
+    <string name="vsPlayer">Offline \n PvP</string>
+    <string name="gameModePickerIntro"> Choose your Game Mode </string>
+    <!-- About Game Strings -->
+    <string name="intro">Welcome to TicTacToe</string>
+    <string name="gameModes">You can choose to play one of 2 game modes)</string>
+    <string name="rules">To win the game, a player must place his symbol on 3 adjacent fields (including the board diagonales)</string>
+    <!-- Menu Strings -->
+    <string name="Play">Play</string>
+    <string name="info">About</string>
+
+</resources>
